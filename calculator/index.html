@@ -23,21 +23,21 @@
             <h1 class="text-success bg-dark">Calculator</h1>
             <div class="row">
                 <div class="form">
-                    <input type="text">
+                    <input type="text" id="input">
                 </div>
             </div>
             <div class="row pt-2">
                 <div class="col">
-                    <button id="one" class="btn btn-light">1</button>
-                    <button id="two" class="btn btn-light">2</button>
-                    <button id="three" class="btn btn-light">3</button>
-                    <button id="multiply" class="btn btn-dark">X</button>
+                    <button id="one" onclick="myfunc()" class="btn btn-light">1</button>
+                    <button id="two" onclick="myfunc2()" class="btn btn-light">2</button>
+                    <button id="three" onclick="myfunc3()" class="btn btn-light">3</button>
+                    <button id="multiply" onclick="myoperation()" class="btn btn-dark">X</button>
                     
                 </div>
             </div>
             <div class="row pt-2">
                 <div class="col">
-                    <button id="four" class="btn btn-light">4</button>
+                    <button id="four" onclick="myfunc4()" class="btn btn-light">4</button>
                     <button id="five" class="btn btn-light">5</button>
                     <button id="six" class="btn btn-light">6</button>
                     <button id="plus" class="btn btn-dark">+</button>
@@ -49,6 +49,11 @@
                     <button id="eight" class="btn btn-light">8</button>
                     <button id="nine" class="btn btn-light">9</button>
                     <button id="minus" class="btn btn-dark">-</button>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div id="result"></div>
+                    </div>
                 </div>
             </div>
             <div class="row pt-2">
@@ -68,5 +73,6 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+        <script src="calc.js"></script>
     </body>
 </html>
