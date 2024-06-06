@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="navbar bg-light navbar-expand-md p-3">
+        <div class="navbar-brand mx-auto">
+          <img src="logo.png" alt="" height="40px" width="240px" />
+        </div>
+        <ul class="navbar-nav mx-auto w-50">
+          <li class="nav-item">
+            <div class="btn">
+              <a href="" class="nav-link text-dark"><b>Home</b></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="btn">
+              <a href="" class="nav-link text-dark icon-link-hover"
+                ><b>Pages</b></a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="btn">
+              <a href="" class="nav-link text-dark"><b>Product</b></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="btn">
+              <a href="" class="nav-link text-dark"><b>Blog</b></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="btn">
+              <a href="" class="nav-link text-dark"><b>Contact</b></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="row mh-100 align-content-center" style="height: 500px">
+        <div class="col-md-8 text-center ml-5">
+          <div
+            id="carouselExampleControl"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1 class="text-danger display-2 font-weight-bold">
+                  Sale 20% off
+                </h1>
+                <h1 class="display-2 font-weight-bold">On Everything</h1>
+                <p class="w-50 mx-auto text-left">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam beatae animi assumenda ducimus quae sunt quo est, enim
+                  perspiciatis quaerat ipsam in corrupti minus iure omnis rerum
+                  nemo natus exercitationem. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                </p>
+                <button type="button" class="btn text-white bg-danger">
+                  Shop now
+                </button>
+              </div>
+              <div class="carousel-item">
+                <h1 class="text-danger font-weight-bold display-2">
+                  Sale 20% off
+                </h1>
+                <h1 class="font-weight-bold display-2">On Everything</h1>
+                <p class="w-50 mx-auto text-left">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam beatae animi assumenda ducimus quae sunt quo est, enim
+                  perspiciatis quaerat ipsam in corrupti minus iure omnis rerum
+                  nemo natus Lorem ipsum dolor sit amet. Lorem, ipsum dolor.
+                  Lorem, ipsum dolor.
+                </p>
+                <button type="button" class="btn text-white bg-danger">
+                  Shop now
+                </button>
+              </div>
+              <div class="carousel-item">
+                <h1 class="text-danger font-weight-bold display-2">
+                  Sale 20% off
+                </h1>
+                <h1 class="font-weight-bold display-2">On Everything</h1>
+                <p class="w-50 mx-auto text-left">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam beatae animi assumenda ducimus quae sunt quo est, enim
+                  perspiciatis quaerat ipsam in corrupti minus iure omnis rerum
+                  nemo natus exercitationem. Lorem ipsum dolor sit amet. Lorem,
+                  ipsum dolor.
+                </p>
+                <button type="button" class="btn text-white bg-danger">
+                  Shop now
+                </button>
+              </div>
+              <!--#carouselExampleControl means ye apne ko carousel ki main div id me bhi dalna hai aur a ke href me bhi dalna hai # laga ke to kaam karege buttons-->
+              <a
+                href="#carouselExampleControl"
+                class="carousel-control-prev"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">previous</span>
+              </a>
+              <a
+                href="#carouselExampleControl"
+                class="carousel-control-next"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
