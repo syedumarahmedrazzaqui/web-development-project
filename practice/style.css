@@ -1,0 +1,8 @@
+body {
+    background-image: url("slider-bg.jpg");
+    background-size: 1950px 950px;
+    background-repeat: no-repeat;
+  }
+  b:hover {
+    color: red;
+  }
