@@ -3,6 +3,6 @@ body {
     background-size: 1950px 950px;
     background-repeat: no-repeat;
   }
-  b:hover {
+b:hover {
     color: red;
   }

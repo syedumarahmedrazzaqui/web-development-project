@@ -9,3 +9,9 @@ b:hover {
     background-position: absolute;
 
 }
+#footer {
+    background-color: #000137;
+}
+li:hover {
+    color: red;
+}
