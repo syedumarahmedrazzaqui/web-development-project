@@ -23,3 +23,6 @@ b:hover {
   background-color: white;
   color: red;
 }
+#firstcard,#secondcard, #thirdcard {
+  background-color: #000435;
+}
