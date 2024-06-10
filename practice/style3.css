@@ -1,3 +1,9 @@
 b:hover {
     color: red;
   }
+  #footer {
+    background-color: #000435;
+}
+li:hover {
+    color: red;
+}
