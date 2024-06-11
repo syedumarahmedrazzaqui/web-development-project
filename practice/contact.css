@@ -1,0 +1,7 @@
+b:hover {
+    color: red;
+}
+#submit:hover {
+    background-color: red;
+    color: white;
+}
