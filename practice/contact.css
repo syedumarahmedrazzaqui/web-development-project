@@ -3,5 +3,17 @@ b:hover {
 }
 #submit:hover {
     background-color: red;
-    color: white;
+}
+#footer {
+    background-color: #000435;
+}
+li:hover {
+    color: red;
+}
+#img {
+    background-image: url("https://themewagon.github.io/famms/images/arrival-bg.png");
+    height: 600px;
+    width: 2350px;
+    background-repeat: no-repeat;
+
 }

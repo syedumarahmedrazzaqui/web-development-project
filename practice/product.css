@@ -1,0 +1,17 @@
+b:hover {
+    color: red;
+}
+#products:hover {
+    background-color: white;
+    color: red;
+}
+#cart:hover {
+    background-color: white;
+    color: red;
+}
+#footer {
+    background-color: #000435;
+}
+li:hover {
+    color: red;
+}
