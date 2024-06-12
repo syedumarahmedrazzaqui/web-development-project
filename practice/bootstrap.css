@@ -1,4 +1,4 @@
-body {
+#bgimg {
     background-image: url("slider-bg.jpg");
     background-size: 100% 950px;
     height: 100%;
@@ -13,7 +13,7 @@ b:hover {
     width: 2300px;
     background-repeat: no-repeat;
     background-position: absolute;
-
+  
 }
 #subscribe {
   background-color: #e5cece;
