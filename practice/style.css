@@ -26,3 +26,11 @@ b:hover {
 #firstcard,#secondcard, #thirdcard {
   background-color: #000435;
 }
+#products:hover {
+  background-color: white;
+  color: red;
+}
+#cart:hover {
+  background-color: white;
+  color: red;
+}
